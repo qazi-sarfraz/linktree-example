@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree Project - Sarfraz Qazi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="main">Welcome to My Full Stack Developer in Training Profile Page!</h1>
+    </header>
+
+    <main>
+      <section aria-labelledby="profile">
+        <img src="20220919_013957.jpg" alt="Sarfraz Qazi's Profile Image">
+
+        <div class="block" id="bk">
+           
+          <h2 id="profile">Sarfraz Qazi</h2>
+          <p id="bk">Telecom Engineering Technologist | Full Stack Developer | Knowledge Seeker</p>
+          <p id="bk"><b>Bio: </b>I am a DC Power Plant Designer and a Problem Solver with a strong background in WAN (Wide Area Network) circuit testing,troubleshooting, Project Delivery Implementation and Coordination in a Telecommunications Engineering Environment.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="links">
+        <div class="block">
+          <h3 class="label" id="portfolio">Portfolio</h3>
+          <p>Check out the kind of project in a highly interactive and dynamic web design environment that I want to do in the future.</p>
+          <a class="button" href="https://exportpotential.intracen.org/en/products/gap-chart?toMarker=j&market=156&fromMarker=i&exporter=124&whatMarker=k.com" target="_blank" rel="noopener noreferrer">Company</a>
+        </div>
+
+        <div class="block">
+          <h3 class="label" id="github">GitHub</h3>
+          <p>Explore my repositories, including my contributions to open-source projects and personal code experiments.</p>
+          <a class="button" href="https://github.com/qazi-sarfraz/linktree-example" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+
+        <div class="block">
+          <h3 class="label" id="linkedin">LinkedIn</h3>
+          <p>Connect with me for networking, collaborations and partnership opportunities in the areas of Business Development in International Trade Opportunities, Telecommunications Engineering, Renewable Green Power, Hydrogen, Green House Gas Emissioning Monitor and Reduction, Carbon Capture and Storage industry.</p>
+          <a class="button" href="https://www.linkedin.com/in/sarfraz-qazi-68326419//" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </section>
+
+      <section aria-labelledby="work">
+        <table>
+          <caption class="label" id="work">Previous Work</caption>
+          <thead>
+            <tr>
+              <th>Projects</th>
+              <th>Skills</th>
+              <th>Example Website</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Form Page</td>
+              <td>HTML</td>
+              <td><a href="Form.html" target="_blank">Form Page</a></td>
+            </tr>
+            <tr>
+              <td>LinkTree Page</td>
+              <td>HTML, CSS</td>
+              <td><a href="#" target="_blank">LinkTree Page</a></td>
+            </tr>
+            <tr>
+              <td>Calculator</td>
+              <td>HTML, CSS, JavaScript</td>
+              <td><a href="Calculator.html" target="_blank">Calculator</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="contact">
+        <h3 class="label" id="contact">Contact Me</h3>
+
+        <form action="/submit" method="POST">
+          <div class="group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+
+          <div class="group">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required />
+          </div>
+
+          <div class="group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div class="group">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="4" placeholder="Your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="button">Send</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
